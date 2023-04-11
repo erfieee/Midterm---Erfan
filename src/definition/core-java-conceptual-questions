@@ -467,13 +467,13 @@ associated method implementation at runtime. It occurs when the type of the obje
 determined at runtime, and the method call is bound to the implementation of the method
 associated with that actual type of the object. In dynamic binding, the method call can be
 changed at runtime based on the actual type of the object. Dynamic binding is also called
-late binding or runtime binding.
+late binding or runtime binding
 Dynamic binding is mostly used in inheritance-based programming, where a subclass can override
 a method of its superclass. When a method is overridden, the method call should be dynamically
 bound to the implementation in the subclass, not in the superclass. Static binding is mostly
 used in method overloading, where multiple methods have the same name, but different
 parameters. The correct method is selected at compile-time based on the type of the
-arguments passed to it.
+arguments passed to it
 
 
 
